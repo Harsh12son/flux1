@@ -1,0 +1,6 @@
+{
+  "name": "web-search",
+  "description": "Search the web via browser",
+  "trigger": "g "
+}
+

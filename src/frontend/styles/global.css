@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-background text-textPrimary antialiased;
+}
+
+.flux-launcher-backdrop {
+  @apply fixed inset-0 flex items-start justify-center bg-black/40;
+}
+
+.flux-launcher-shell {
+  @apply mt-24 w-full max-w-2xl rounded-2xl bg-surface shadow-launcher border border-surfaceAlt/80 overflow-hidden;
+}
+
+.flux-command-input {
+  @apply w-full bg-transparent text-lg outline-none border-none px-4 py-3 text-textPrimary placeholder:text-textSecondary;
+}
+
+.flux-result-row {
+  @apply flex items-center gap-3 px-3 py-2 cursor-pointer rounded-xl;
+}
+
+.flux-result-row-active {
+  @apply bg-surfaceAlt;
+}
+
+.flux-kbd {
+  @apply inline-flex items-center justify-center rounded-md border border-surfaceAlt bg-black/40 px-1.5 py-0.5 text-[11px] font-mono text-textSecondary;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "clipboard",
+  "description": "Session clipboard history",
+  "trigger": "clip "
+}
+

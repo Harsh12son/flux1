@@ -1,0 +1,6 @@
+{
+  "name": "calculator",
+  "description": "Evaluate math expressions",
+  "trigger": "="
+}
+
