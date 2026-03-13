@@ -1,6 +1,5 @@
 node_modules
 target
 dist
-.vscode
+src-tauri/database
 .env
-.DS_Store
