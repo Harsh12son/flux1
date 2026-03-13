@@ -7,8 +7,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint src/frontend --ext ts,tsx",
-    "tauri:dev": "tauri dev",
-    "tauri:build": "tauri build"
+    "tauri:dev": "cargo run --manifest-path src-tauri/Cargo.toml",
+    "tauri:build": "cargo build --manifest-path src-tauri/Cargo.toml --release"
   },
   "dependencies": {
     "@tauri-apps/api": "^2.10.1",
